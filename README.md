@@ -10,7 +10,7 @@ The image is built by podman and pushed on [quay.io](https://quay.io/repository/
 ### With default frr config
 
 ```
-podman run -d --name=frr -p 3128:3128 quay.io/emilien/frr:latest
+podman run -d --name=frr quay.io/emilien/frr:latest
 ```
 
 ### With custom config
